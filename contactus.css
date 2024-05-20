@@ -1,0 +1,236 @@
+.contact-us-sec1-image{
+  
+        background-image: url(images/contact-us-angro-sec1-bg.png); /* Set background image */
+
+    
+    background-repeat: no-repeat;
+    background-position: center center
+}
+.contact-us-sec1-inner-image{
+    /* background-image: url(images/Vector\ 41.png); */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.contact-text {
+    text-align: center;
+    padding: 17% 0% 18% 0%;
+    font-family: 'Dosis';
+    font-size: 4rem;
+    font-weight: 600;
+    color: white;
+}
+
+.main-heading {
+    font-size: 3rem;
+    margin: 0% 25% 0% 0%;
+    font-family: 'Dosis';
+    font-weight: 600;
+    color: #0B3D2C;
+}
+
+.main-text {
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin: 5% 0% 0% 0%;
+    font-size: 1.3rem;
+    color: 
+    #666666;
+}
+
+.bottom-two-text {
+    font-family: 'Poppins';
+    font-size: 1.3rem;
+}
+
+.bottom-card h4 {
+    /* font-family: 'Poppins'; */
+    font-weight: 600;
+    font-size: 25px;
+}
+
+input[type="text"] {
+    background-color: #E9F2EA;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    height: 3rem;
+}
+
+.shadow-right-bottom {
+    box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    border: none;
+    padding: 10% 10% 0% 10%;
+    background-color: #FCFCFC;
+    font-family: "Outfit";
+}
+
+@media (max-width: 991px) {
+    .contact-text {
+        text-align: center;
+        padding: 5%;
+        font-family: 'Dosis';
+        font-size: 2rem;
+        font-weight: 600;
+        color: white;
+    }
+    .bottom-two-text {
+        margin-top: 5px;
+    }
+
+    .main-heading {
+        font-size: 1.6rem;
+    }
+
+    .bottom-card {
+        font-size: 10px;
+    }
+    .main-text {
+        font-family: 'Poppins';
+        font-weight: 600;
+        margin: 5% 0% 0% 0%;
+        font-size: 1.1rem;
+        color: #666666;
+    }
+}
+
+.btn-primary {
+    background-color: #1F4E3D;
+    border-color: #1F4E3D;
+}
+
+.btn-primary:hover {
+    background-color: #2E7C61;
+    border-color: #2E7C61;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(31, 78, 61, 0.5);
+}
+
+
+
+
+
+
+
+.contact-us-left-div-email-section-col2{
+    padding: 0%;
+}
+.contact-us-left-div-email-section{
+    margin-top: 20px;
+    border-radius: 20px ;  
+    border: 1px dotted #939393;
+    padding: 4%;
+}
+.contact-us-left-div-email-section-col1-email-icon {
+    border-radius: 50%;
+    border: none;
+    background-color: #729F28;
+    color: #FFFFFF;
+    width: 75px;
+    height: 65px;
+    margin: 21% 0% 3% 4%;
+}
+.email-icon-contactus-page {
+    margin: 23% 0% 0% 25%;
+    width: 36px;
+    height: 30px;
+    padding: 5%;
+}
+.contact-us-left-div-phone-section{
+    padding: 3%;
+    margin: 3% 0% 0% 0%;
+    border-radius: 20px ; 
+    border: 1px dotted #939393;
+}
+.phone-icon-contactus-page{
+    margin: 23% 0% 0% 25%;
+    width: 30px;
+    height: 30px;
+}
+.contact-us-left-div-phone-section-col1-phone-icon{
+    border-radius: 50%; 
+    border: none; 
+    background-color:#0B3D2C; 
+    color: #FFFFFF; 
+    width: 60px; 
+    height: 60px; 
+    margin: 3% 0% 3% 4%;
+}
+@media only screen and (max-width:500px)
+{
+    .contact-us-left-div-email-section-col1-email-icon {
+        border-radius: 50%;
+        border: none;
+        background-color: #729F28;
+        color: #FFFFFF;
+        width: 75px;
+        height: 65px;
+        margin: 2% 0% 3% 1%;
+    }
+    .navbar-section {
+
+        background: white;
+        height: 9vh;
+        /* top: 0;
+        width: 100%;
+        z-index: 9; */
+    }
+    .contact-text {
+        /* text-align: center;
+        font-family: 'Dosis';
+        font-size: 2rem;
+        font-weight: 600;
+        color: white; */
+        padding: 20%;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:800px)
+{
+    .contact-us-left-div-email-section-col1-email-icon {
+        border-radius: 50%;
+        border: none;
+        background-color: #729F28;
+        color: #FFFFFF;
+        width: 75px;
+        height: 65px;
+        margin: 6% 0% 3% 4%;
+    }
+    .navbar-section {
+        background: white;
+        height: 7vh;
+        top: 0;
+        width: 100%;
+        z-index: 9;
+    }
+    .contact-text {
+        text-align: center;
+        padding: 15%;
+        font-family: 'Dosis';
+        font-size: 2rem;
+        font-weight: 600;
+        color: white;
+    }
+}
+@media only screen and (min-width:800px) and (max-width:1100px)
+{
+    .navbar-section {
+        /* background-image: url(images/nav-bgimg.png); */
+        background: white;
+        height: 5vh;
+        /* position: absolute; */
+        top: 0;
+        width: 100%;
+        z-index: 9;
+    }
+    .contact-text {
+        text-align: center;
+        padding: 17% 0% 27% 0%;
+        font-family: 'Dosis';
+        font-size: 4rem;
+        font-weight: 600;
+        color: white;
+    }
+}

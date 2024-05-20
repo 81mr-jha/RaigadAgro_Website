@@ -1,0 +1,181 @@
+
+
+/* *************footer************** */
+.Raigadkar-agro-sec5{
+    background-color: #1F4E3D;
+    height: auto;
+    color: #DEDEDE;
+}
+.Raigadkar-agro-sec5-col1-div{
+    margin-top: 4%;
+}
+.Raigadkar-agro-sec5-col1-div img{
+    margin: 3% 0% 5% 0%;
+}   
+.Raigadkar-agro-sec5-col1-div-p{
+    font-size: 16px;;
+}
+.Raigadkar-agro-sec5-col1-div-p input[type="email"]{
+    border-radius: 20px;
+}
+.Raigadkar-agro-sec5-col2-div{
+    margin-top: 6%;
+}
+.Raigadkar-agro-sec5-col2-div-p{
+    font-size: 28px;
+}
+.Raigadkar-agro-sec5-col3-div{
+    margin-top: 6%;
+}
+
+.Raigadkar-agro-sec5-col3-div a {
+    text-decoration: none;
+    color: white;
+}
+.Raigadkar-agro-sec5-col4-div{
+    background-image: url("images/footer-tractorimg.png");
+    margin-top: 6%;
+    background-repeat: no-repeat;
+
+    background-position: right top 94%;
+}
+.footer-icon{
+    margin-right: 5%;
+}
+#footer-onlyinputid{
+    padding: 3%;
+    width: 80%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.Raigadkar-agro-sec5-col1-div-p2 img{
+    margin-left: -14%;
+}
+
+
+
+/* **********SEction 5**************** */
+
+.Raigadkar-agro-section5{
+    background-image: url(images/New-img-added-home-page.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+}
+.Raigadkar-agro-section5-new-section-aded{
+    padding: 3%;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: 
+    #49A760;
+    /* height: 5vh; */
+    width: 40%;
+    margin: 10% 0% 5% 10% ;
+    border-radius: 10px;
+}
+.Raigadkar-agro-section5-new-section-aded-par1{
+    font-family: Dosis;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.Raigadkar-agro-section5-new-section-aded-par2{
+    font-family: Dosis;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width:400px)
+{
+    .Raigadkar-agro-section5-new-section-aded {
+        padding: 7%;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: #49A760;
+        /* height: 68vh; */
+        width: 89%;
+        margin: 6% 0% 5% 6%;
+        border-radius: 10px;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:500px)
+{
+    .Raigadkar-agro-section5-new-section-aded {
+        padding: 3%;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: #49A760;
+        /* height: 5vh; */
+        width: 86%;
+        margin: 10% 0% 5% 5%;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:768px)
+{
+    .Raigadkar-agro-section5-new-section-aded {
+        padding: 3%;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: #49A760;
+        /* height: 5vh; */
+        width: 62%;
+        margin: 10% 0% 5% 10%;
+        border-radius: 10px;
+    }
+}  
+
+@media only screen and (min-width:1200px) and (max-width:3000px)
+{
+    .Raigadkar-agro-section5-new-section-aded {
+        padding: 3%;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: #49A760;
+        /* height: 5vh; */
+        width: 36%;
+        margin: 10% 0% 5% 15%;
+        border-radius: 10px;
+    }
+}
+.Raigadkar-agro-aboutus-sec4{ 
+    height: auto; 
+    padding: 3% 0% 3% 0%; 
+} 
+ 
+ 
+.Raigadkar-agro-aboutus-sec4-right-div-title {
+    font-family: 'Dosis';
+    font-size: 3rem;
+    font-weight: 700;
+} 
+.Raigadkar-agro-aboutus-sec4-content {
+    font-family: sans-serif;
+    color: #666666;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+ 
+ 
+.Raigadkar-agro-aboutus-sec4-img1 {
+    margin-left: 30%;
+    width: 64%;
+}
+
+@media (max-width:768px){
+    .Raigadkar-agro-aboutus-sec4-img1 {
+        width: 40%;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1000px)
+{
+    .Raigadkar-agro-aboutus-sec4-img1 {
+        margin: 21% 0% 0% 21%;
+        width: 70%;
+    }
+}
+

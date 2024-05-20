@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "raigad-agro-all-files",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "../../Users/admin/Downloads/ashitosh task/raigadkar agro/Raj-Agro-New4/raigadagro/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "raigad-agro-all-files",
+		"liveServer.settings.port": 5501
+	}
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Typing Animation</title>
+<style>
+    /* Style for the cursor */
+    .cursor {
+        display: inline-block;
+        width: 0.1em;
+        height: 1.1em;
+        background-color: orange; /* Adjust the color of the cursor */
+        animation: blink-animation 1s steps(2) infinite;
+    }
+
+    /* Keyframes for blinking animation */
+    @keyframes blink-animation {
+        to {
+            visibility: hidden;
+        }
+    }
+</style>
+</head>
+<body>
+
+<div class="col-lg-12 col-md-12 col-sm-12 Raigdkar-home-new-section2-image-div-leftside-para">
+    <p id="typing-text" class="Raigdkar-home-new-section2-image-div-leftside-para-div-p">
+        <span id="typed-welcome"></span> <span id="typed-text" class="Raigdkar-home-new-section2-image-div-leftside-para-div-p-span"></span>
+        <span class="cursor"></span>
+    </p>
+</div>
+
+<script>
+    // Text to be typed
+    var welcomeText = "Welcome to ";
+    var agroText = "Raigdkar Agro";
+    var speed = 100; // Typing speed in milliseconds
+
+    // Initialize index
+    var welcomeIndex = 0;
+    var agroIndex = 0;
+
+    // Function to type text
+    function typeWelcome() {
+        if (welcomeIndex < welcomeText.length) {
+            document.getElementById("typed-welcome").innerHTML += welcomeText.charAt(welcomeIndex);
+            welcomeIndex++;
+            setTimeout(typeWelcome, speed);
+        } else {
+            setTimeout(typeAgro, 1000); // Wait for 1 second before typing the next part
+        }
+    }
+
+    function typeAgro() {
+        if (agroIndex < agroText.length) {
+            document.getElementById("typed-text").innerHTML += agroText.charAt(agroIndex);
+            agroIndex++;
+            setTimeout(typeAgro, speed);
+        }
+    }
+
+    // Start typing animation when the page loads
+    window.onload = function() {
+        typeWelcome();
+    };
+</script>
+
+</body>
+</html>

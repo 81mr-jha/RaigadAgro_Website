@@ -1,0 +1,622 @@
+.Raigadkar-agro-aboutus-sec1 {
+    /* background: url(/images/Aboutusimg/r-agro-sec1-bg-img.png); */
+
+    background-image: linear-gradient(to bottom, rgba(20, 77, 54, 0.7), rgba(20, 77, 54, 0.7)), url(/images/Aboutusimg/r-agro-sec1-bg-img.png);
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Raigadkar-agro-aboutus-sec1-main {
+
+    background: url(/images/Aboutusimg/r-agro-sec1-bg-img2.png);
+    background-repeat: no-repeat;
+    background-size: 83%;
+    background-position: center bottom 0%;
+    height: 100vh;
+    width: 55%;
+
+}
+
+
+.Raigadkar-agro-aboutus-sec1-main-p1 {
+    font-family: "Dosis", sans-serif;
+    font-size: 4.3rem;
+    color: white;
+    text-align: center;
+    line-height: 6rem;
+    margin: 34% 12% 0% 12%;
+
+}
+
+
+.Raigadkar-agro-aboutus-sec1-main-p2 {
+    font-family: "Dosis", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    /* line-height: 6rem; */
+    margin: 1% 17% 0% 17%;
+
+}
+@media (min-width:310px) and (max-width:768px){
+
+    .Raigadkar-agro-aboutus-sec1 {
+        /* background: url(/images/Aboutusimg/r-agro-sec1-bg-img.png); */
+        background-image: linear-gradient(to bottom, rgba(20, 77, 54, 0.7), rgba(20, 77, 54, 0.7)), url(/images/Aboutusimg/r-agro-sec1-bg-img.png);
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .Raigadkar-agro-aboutus-sec1-main {
+    background: none;
+    /* background-repeat: no-repeat; */
+    background-size: 83%;
+    background-position: center bottom 0%;
+    height: auto;
+    width: 98%;
+    padding: 3% 0% 5% 0%;
+}
+
+.Raigadkar-agro-aboutus-sec1-main-p1 {
+    font-family: "Dosis", sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    line-height: 3rem;
+    margin: 5% 5% 5% 5%;
+}
+
+.Raigadkar-agro-aboutus-sec1-main-p2 {
+    /* line-height: 6rem; */
+    margin: 1% 7% 0% 7%;
+}
+}
+/**************** About Us Section 2 *******************/
+
+.Raigadkar-agro-aboutus-sec2 {
+    height: auto;
+    padding: 5% 0% 5% 0%;
+}
+
+
+.Raigadkar-agro-aboutus-sec2-right-div-title {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Dosis", sans-serif;
+}
+
+.Raigadkar-agro-aboutus-sec2-right-div-ul {
+    list-style-type: none;
+    /* Remove default list style */
+    padding: 0;
+}
+
+.Raigadkar-agro-aboutus-sec2-right-div-list {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.Raigadkar-agro-aboutus-sec2-right-div-list::before {
+    content: "\2714";
+    /* Unicode for checkmark symbol */
+
+    display: inline-block;
+    width: 3em;
+
+}
+
+.Raigadkar-agro-aboutus-sec2-btn {
+    padding: 10px 20px;
+    background-color: #4baf47;
+    /* Blue background color */
+    color: white;
+    border: 2px solid #4baf47;
+    /* Blue border color */
+
+    border-radius: 8px;
+}
+
+
+.Raigadkar-agro-aboutus-sec2-left-img1 {
+    width: 70%;
+}
+
+.Raigadkar-agro-aboutus-sec2-right-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Hide the typing cursor */
+#typing-text::after {
+    content: "|";
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/**************** About Us Section 3 *******************/
+.Raigadkar-agro-aboutus-sec3 {
+    background: url(/images/Aboutusimg/agro-about-sec4-bg.png);
+    height: auto;
+    padding: 3% 0% 3% 0%;
+}
+
+.Raigadkar-agro-aboutus-sec3-content {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+}
+
+/**************** About Us Section 4 *******************/
+.Raigadkar-agro-aboutus-sec4 {
+    
+    height: auto;
+    padding: 3% 0% 3% 0%;
+}
+
+
+.Raigadkar-agro-aboutus-sec4-right-div-title {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Dosis", sans-serif;
+}
+
+.Raigadkar-agro-aboutus-sec4-content {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #666666;
+    text-align: center;
+
+}
+
+
+
+.Raigadkar-agro-aboutus-sec4-img1 {
+
+    width: 80%;
+}
+
+.Raigadkar-agro-aboutus-sec4-img2-for-mobile{
+    display: none;
+}
+.Raigadkar-agro-aboutus-sec4-right-side-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@media (min-width:310px) and (max-width:768px) {
+.Raigadkar-agro-aboutus-sec4-content {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+}
+.Raigadkar-agro-aboutus-sec4-img1 {
+    display: none;
+    width: 100%;
+}
+
+.Raigadkar-agro-aboutus-sec4-img2-for-mobile{
+    display: block;
+    width: 100%;
+}
+}
+/**************** About Us Section 5 *******************/
+
+.Raigadkar-agro-aboutus-sec5-main {
+
+    background: url(images/Aboutusimg/sec5-img.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: right top 2%;
+
+    height: auto;
+
+}
+
+.Raigadkar-agro-aboutus-sec5-main-title1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Raigadkar-agro-aboutus-sec5-content-title {
+    text-align: center;
+    font-size: 1.3rem;
+    background: #F7C35F;
+    width: 16%;
+    padding: 2% 0% 2% 0%;
+    font-weight: 700;
+}
+
+.Raigadkar-agro-aboutus-sec5 {
+    background-color: #E9F1EE;
+    padding: 2% 0% 2% 0%;
+}
+
+.Raigadkar-agro-aboutus-sec5-content {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 3% 0% 3% 0%;
+    text-align: center;
+}
+
+.Raigadkar-agro-aboutus-sec5-img {
+    background-size: cover;
+    width: 13%;
+    height: auto;
+    /* position: absolute;
+    top: -35px;
+    right: -66px;
+     */
+
+}
+
+@media (min-width:310px) and (max-width:768px) {
+.Raigadkar-agro-aboutus-sec5-content-title {
+   
+    width: 43%;
+}
+}
+/**************** About Us Section 6 *******************/
+.Raigadkar-agro-aboutus-sec6 {
+    background: url(images/Aboutusimg/sec6-img.png);
+    height: auto;
+    background-size: 120%;
+    padding: 2% 0% 2% 0%;
+    background-repeat: no-repeat;
+    background-position: center top 137%;
+}
+
+
+
+
+.Raigadkar-agro-aboutus-sec6-title1-p1 {
+    font-size: 2rem;
+    color: #043A3A;
+    font-family: "Dosis", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Raigadkar-agro-aboutus-sec6-title1 {
+    background: url(/images/Aboutusimg/Heading\ 2.png);
+    height: 14vh;
+    background-repeat: no-repeat;
+    background-position: center top 36%;
+    background-size: 17%;
+}
+
+.Raigadkar-agro-aboutus-sec6-title2-p2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #043A3A;
+    font-family: "Dosis", sans-serif;
+    text-decoration: underline;
+
+}
+
+.Raigadkar-agro-aboutus-sec6-row1-img1 {
+    width: 100%;
+}
+
+.Raigadkar-agro-aboutus-sec6-row1-img2 {
+    width: 100%;
+    height: 100%;
+}
+
+.Raigadkar-agro-aboutus-sec6-row1-img3 {
+    width: 100%;
+    margin: 6% 0% 0% 0%;
+    height: 100%
+}
+
+
+.Raigadkar-agro-aboutus-sec6-row1-img4,
+.Raigadkar-agro-aboutus-sec6-row1-img5,
+.Raigadkar-agro-aboutus-sec6-row1-img6 {
+    width: 94%;
+}
+
+.Raigadkar-agro-aboutus-sec6-row1-col2 {
+    padding: 0% 0% 0% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width:310px) and (max-width:768px) {
+
+    .Raigadkar-agro-aboutus-sec6-mid-col1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Raigadkar-agro-aboutus-sec6-col1,
+    .Raigadkar-agro-aboutus-sec6-col2{
+        padding: 3% 0% 0% 0% !important;
+    }
+    
+#Raigadkar-agro-aboutus-sec6-3rd-col-row{
+    margin-top: 10% !important;
+    }
+}
+
+/**************** About Us Section 7 *******************/
+.Raigadkar-agro-aboutus-sec7 {
+    background: url(images/Aboutusimg/sec7-bg-img.png);
+    height: auto;
+    background-size: 170%;
+    background-repeat: no-repeat;
+    background-position: center top 113%;
+    padding: 3% 0% 2% 0%;
+}
+
+
+.Raigadkar-agro-aboutus-sec7-title1 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Dosis", sans-serif;
+    text-decoration: underline;
+}
+
+.Raigadkar-agro-aboutus-sec7-row1-img1 {
+
+    width: 100%;
+}
+
+.Raigadkar-agro-aboutus-sec7-row1-img2 {
+
+    width: 94%;
+}
+
+.Raigadkar-agro-aboutus-sec7-row2-img1 {
+    width: 100%;
+
+}
+
+.Raigadkar-agro-aboutus-sec7-row2-img2 {
+    width: 100%;
+    margin: 4% 0% 0% 0%;
+
+}
+
+.Raigadkar-agro-aboutus-sec7-row2-img3 {
+    width: 100%;
+
+}
+
+.Raigadkar-agro-aboutus-sec7-row2-img4 {
+    width: 93%;
+}
+
+
+
+@media (min-width:310px) and (max-width:768px)
+{
+    .Raigadkar-agro-aboutus-sec7-col2,
+    .Raigadkar-agro-aboutus-sec7-col3,
+    .Raigadkar-agro-aboutus-sec7-col4,
+    .Raigadkar-agro-aboutus-sec7-col5,
+    .Raigadkar-agro-aboutus-sec7-col6{
+        padding: 3% 0% 0% 0% !important;
+    }
+    .Raigadkar-agro-aboutus-sec7-row2-img4 {
+        width: 100%;
+    }
+    .Raigadkar-agro-aboutus-sec7-row1-img2 {
+        width: 100%;
+    }
+}
+
+/* ---------------------------------------- */
+
+.Raigadkar-agro-aboutus-sec8 {
+    background: url(images/Aboutusimg/sec7-bg-img.png);
+    height: auto;
+    background-size: 124%;
+    background-repeat: no-repeat;
+    background-position: center top 113%;
+    padding: 3% 0% 2% 0%;
+}
+
+.Raigadkar-agro-aboutus-sec8-title1 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Dosis", sans-serif;
+    text-decoration: underline;
+}
+
+.Raigadkar-agro-aboutus-sec8-img1 {
+    width: 100%;
+    height: 100%;
+}
+
+.Raigadkar-agro-aboutus-sec8-img2 {
+    width: 100%;
+    height: 100%;
+}
+
+.Raigadkar-agro-aboutus-sec8-img3 {
+    width: 100%;
+    height: 100%;
+}
+
+.Raigadkar-agro-aboutus-sec8-img4 {
+    width: 100%;
+    height: 100%;
+}
+
+.Raigadkar-agro-aboutus-sec8-img5 {
+    width: 100%;
+    height: 100%;
+}
+
+.Raigadkar-agro-aboutus-sec8-img6 {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ----------------sec9------------------------------ */
+
+
+.Raigadkar-agro-aboutus-sec9 {
+
+
+    height: auto;
+    padding: 3% 0% 3% 0%;
+}
+
+.Raigadkar-agro-aboutus-sec9-title1 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+}
+
+
+.Raigadkar-agro-aboutus-sec9-row1-col1 {
+    text-align: right;
+    color: #274C5B;
+}
+
+.Raigadkar-agro-aboutus-sec9-row1-col2 {
+    text-align: right;
+    color: #274C5B;
+}
+
+.Raigadkar-agro-aboutus-sec9-row1-col1-title1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Dosis", sans-serif;
+}
+
+.Raigadkar-agro-aboutus-sec9-row1-col1-p1 {
+    /* font-family: "Dosis", sans-serif;  */
+    margin: 0% 0% 5% 14%;
+    font-size: 1.3rem;
+}
+
+#Raigadkar-agro-aboutus-sec9-row1-col3-id{
+    margin-top: 5%;
+}
+.Raigadkar-agro-aboutus-sec9-row1-col3-title1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Dosis", sans-serif;
+}
+
+.Raigadkar-agro-aboutus-sec9-row1-col3-p1 {
+    margin: 0% 14% 5% 0%;
+    font-size: 1.3rem;
+}
+
+@media (min-width:310px) and (max-width:768px) {
+    .Raigadkar-agro-aboutus-sec9-row1-col1 {
+        text-align: center;
+        color: #274C5B;
+    }
+    .Raigadkar-agro-aboutus-sec9-row1-col1-p1 {
+        /* font-family: "Dosis", sans-serif; */
+        margin: 0% 0% 5% 0%;
+        font-size: 1.3rem;
+    }
+
+    .Raigadkar-agro-aboutus-sec19-row1-col3{
+        text-align: center;
+    }
+    .Raigadkar-agro-aboutus-sec9-row1-col3{
+        text-align: center;
+    }
+
+    .Raigadkar-agro-aboutus-sec-1-row1-col3{
+     text-align: center;   
+    }
+
+    .Raigadkar-agro-aboutus-sec9-row1-col3-p1 {
+        margin: 0% 0% 5% 0%;
+        font-size: 1.3rem;
+    }
+
+    .Raigadkar-agro-aboutus-sec8-col1,
+    .Raigadkar-agro-aboutus-sec8-col2,
+    .Raigadkar-agro-aboutus-sec8-col3,
+    .Raigadkar-agro-aboutus-sec8-col4,
+    .Raigadkar-agro-aboutus-sec8-col5,
+    .Raigadkar-agro-aboutus-sec8-col6{
+        margin: 5% 0% 0% 0%;
+    }
+}
+
+/* 
+--------------------------Raigadkar-agro-aboutus-sec10-------------------- */
+
+.Raigadkar-agro-aboutus-sec10 {
+
+    background-color: #E9F1EE;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0% 5% 0%;
+
+}
+
+.Raigadkar-agro-aboutus-sec10-main {
+    background: #4BB145;
+    border-radius: 12px;
+    padding: 2% 2% 2% 2%;
+
+    margin: 0% 10% 0% 10%;
+    /* border-top: 5px solid   #4BB145; */
+    box-shadow: 0px -7px 5px rgba(75, 177, 69, 0.5);
+    /* Adjust values as needed */
+
+}
+
+.Raigadkar-agro-aboutus-sec10-main-p1 {
+    text-align: center;
+    color: white;
+    font-family: "Dosis", sans-serif;
+    font-size: 1.3rem;
+}
+
+
+.Raigadkar-agro-aboutus-sec9-sub-row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Raigadkar-agro-aboutus-sec10-main-p2 {
+    color: white;
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+    font-size: 1.3rem;
+}
+
+.Raigadkar-agro-aboutus-sec9-mid-row-img1 {
+    width: 90%;
+}

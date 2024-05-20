@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1fc8bd02e0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Candal&display=swap" rel="stylesheet">
+
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/png" href="/images/raigdkar-Agro-logo.png">
+
+
+</head>
+<style>
+    /* Style for the cursor */
+    /* Style for the cursor */
+    .cursor {
+        display: inline-block;
+        width: 0.1em;
+        height: 1.1em;
+        background-color: orange;
+        /* Adjust the color of the cursor */
+        animation: blink-animation 1s steps(2) infinite;
+    }
+
+    /* Keyframes for blinking animation */
+    @keyframes blink-animation {
+        to {
+            visibility: hidden;
+        }
+    }
+</style>
+
+<body>
+
+    <!-- ****************NavBar****************** -->
+    <section class="navbar-section">
+        <nav>
+
+            <ul class="sidebar">
+
+                <div class="inner-div-sidebar">
+
+                    <li><img src="images/rai-logo-black.png" alt="" id="navbar-logo-black"></li>
+
+
+                    <p onclick=hideSidebar()>
+                        <a href="#"><i class="fa-solid fa-xmark" style="font-size: larger; color: black;"></i></a>
+                    </p>
+
+                </div>
+                <li id="home-nav"><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="Contactus.html">Contact us</a></li>
+                <!-- <div class="navbar-social-media-icon">
+                    <img src="images/linkedin-1.png"  class="navbar-social-media-icon-img" alt="">
+                    <img src="images/facebook-1.png" class="navbar-social-media-icon-img" alt="">
+                    <img src="images/instagram-1.png" class="navbar-social-media-icon-img" alt="">
+                </div> -->
+
+                <div class="navbar-copywright">
+                    <p>@2024 Raigadkar Agro. All rights reserved</p>
+                </div>
+            </ul>
+            <ul>
+
+                <li><img src="images/raigdkar-Agro-logo.png" alt="" class="navbar-logo-img1"></li>
+                <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                <li class="hideOnMobile"><a href="aboutus.html">About us</a></li>
+                <li class="hideOnMobile"><a href="services.html">Services</a></li>
+                <li class="hideOnMobile"><a href="product.html">Product</a></li>
+                <li class="hideOnMobile"><a href="Contactus.html">Contact us</a></li>
+                <li class="menu-button" onclick=toggleSidebar()><a href="#"><i class="fas fa-bars"
+                            id="sidebari1"></i></a></li>
+            </ul>
+
+
+        </nav>
+    </section>
+
+
+    <!-- *********Navbar Ended********* -->
+
+
+
+    <!-- *****Section1************ -->
+    <section>
+
+
+        <section class="video-background">
+            <video autoplay muted loop id="myVideo" playsinline>
+                <source src="/videos/home-pg-bg-1.mp4" type="video/mp4" class="img-fluid">
+                Your browser does not support the video tag.
+            </video>
+            <div class="content">
+                <!-- Your content goes here -->
+            </div>
+        </section>
+
+
+        <!-- <div class="raigadkar-sec1-for-v">
+            <video width="640" height="360" controls>
+                <source src="/videos/home-pg-bg-1.mp4" type="video/mp4">
+
+                Your browser does not support the video tag.
+              </video>
+              
+        </div> -->
+
+        <div class="Raigadkar-section1">
+            <div class="Raigadkar-section1-bgimg img-fluid">
+                <p class="Raigadkar-section1-bgimg-p1">
+                    Raigadkar Agro: Your One-Stop Shop for All Things Agriculture Needs
+                </p>
+
+                <p class="Raigadkar-section1-bgimg-p2">
+                    Raigadkar Agro is a comprehensive agricultural solutions provider dedicated to empowering farmers
+                    and
+                    supporting government initiatives.  We offer a wide range of services and products to ensure your
+                    agricultural success.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- ******Section2 Ended*********  -->
+
+
+    <!-- section2***************** -->
+
+
+    <!-- <Section class="Raigadkar-agro-sec2">
+        <div class="container">
+            <div class="row">
+                <p class="text-center Raigadkar-agro-sec2-main-title ">Our <span
+                        class="Raigadkar-agro-sec2-main-title-color">Services</span></p>
+                <div class="col-md-5 Raigadkar-agro-sec2-img-div">
+
+
+                    <div data-aos="zoom-in">
+                        <img src="images/sec2-left-div-img.png" alt="" id="sec2-left-div-img">
+                    </div>
+                </div>
+
+                <div class="col-md-7">
+                    <div class="Raigadkar-agro-sec2-right-div">
+                        <img src="images/sec2-right-div-img1 (1).png" alt="Image"
+                            class="Raigadkar-agro-sec2-right-div-img">
+                        <div>
+                            <p class="Raigadkar-agro-sec2-right-div-title">Government Consultancy</p>
+                            <p class="Raigadkar-agro-sec2-right-div-content">We provide expert agricultural consulting
+                                services to government agencies, helping shape policies and programs that benefit
+                                farmers.</p>
+                        </div>
+                    </div>
+
+                    <div class="Raigadkar-agro-sec2-right-div ">
+                        <img src="images/sec2-right-div-img2.png" alt="Image" class="Raigadkar-agro-sec2-right-div-img">
+                        <div>
+                            <p class="Raigadkar-agro-sec2-right-div-title">Land Development Services</p>
+                            <p class="Raigadkar-agro-sec2-right-div-content">Get expert assistance in developing your
+                                land for optimal agricultural use.</p>
+                        </div>
+                    </div>
+
+                    <div class="Raigadkar-agro-sec2-right-div ">
+                        <img src="images/sec2-right-div-img (3).png" alt="Image"
+                            class="Raigadkar-agro-sec2-right-div-img">
+                        <div>
+                            <p class="Raigadkar-agro-sec2-right-div-title">Agriculture Equipment Trading</p>
+                            <p class="Raigadkar-agro-sec2-right-div-content">We are a trusted dealer for all types of
+                                agricultural equipment, ensuring you have the right tools for the job.</p>
+                        </div>
+                    </div>
+
+
+                    <div class=" d-flex justify-content-center align-items-center mt-4 mb-5">
+                        <button class="Raigadkar-agro-see-more-btn  ">See More</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </Section> -->
+
+    <!-- ******Section1 Ended*********  -->
+
+
+    <!-- ************NEW SEction2*********** -->
+
+    <section>
+        <div class="Raigadkar-home-new-section2">
+            <div class="container">
+                <div class="row m-0 p-0 w-100">
+                    <div class="col-lg-6 Raigadkar-home-new-section2-image-div-leftside">
+                        <img src="images/Sec2-new-Modifies-image.png" alt="Sec2-new-Modifies-image">
+                    </div>
+                    <div class="col-lg-6 Raigadkar-home-new-section2-div-righttside">
+                        <div class="row m-0 p-0 w-100">
+                            <div
+                                class="col-lg-12 col-md-12 col-sm-12 Raigadkar-home-new-section2-image-div-leftside-div1">
+                                <img src="images/Group 1000003829.png" id="Raigadkar-home-new-section2-nimage" alt="">
+                            </div>
+                            <!-- <div class="col-lg-12 col-md-12 col-sm-12 Raigadkar-home-new-section2-image-div-leftside-para">
+                                    <p class="Raigadkar-home-new-section2-image-div-leftside-para-div-p">
+                                        Welcome to <span class="Raigadkar-home-new-section2-image-div-leftside-para-div-p-span">Raigadkar Agro</span> 
+                                    </p>
+                                </div> -->
+                            <div
+                                class="col-lg-12 col-md-12 col-sm-12 Raigadkar-home-new-section2-image-div-leftside-para">
+                                <p id="typing-text" class="Raigadkar-home-new-section2-image-div-leftside-para-div-p">
+                                    <span id="typed-welcome"></span><span id="typed-text"
+                                        class="Raigadkar-home-new-section2-image-div-leftside-para-div-p-span"></span>
+                                    <span class="cursor"></span>
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="row m-0 p-0 w-100">
+                            <div class="col Raigadkar-home-new-section2-image-div-leftside-div2">
+                                <p class="Raigadkar-home-new-section2-image-div-leftside-div2-p">
+                                    Your trusted partner in agricultural solutions and services. Founded in 2012 by the
+                                    visionary Mr. Prakash Ughade Raigadkar, our company has been dedicated to serve
+                                    farmers and agricultural enthusiasts with excellence and integrity. With over
+                                    150,000 satisfied customers, we take pride in our commitment to deliver top-notch
+                                    products and services that cater to all your agricultural needs.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="Raigadkar-home-new-section2-part2">
+
+        </div>
+
+    </section>
+
+
+    <!-- ************NEW SEction2 Ended*********** -->
+    <section>
+        <div class="New-Section3-vision-and-mission">
+            <div class="container">
+                <div class="row m-0 p-0 w-100">
+                    <div class="col-lg-4" data-aos="fade-down" data-aos-duration="2000">
+                        <p class="New-Section3-vision-and-mission-para-title">
+                            <img src="images/Group 1261155549.png" alt="">
+                            Vision
+                        </p>
+                        <p class="New-Section3-vision-and-mission-para-title2">Our vision is to be the leading provider
+                            of agricultural solutions, recognized for our commitment to quality, integrity, and customer
+                            satisfaction, while contributing to the advancement of the agricultural sector.
+                        </p>
+                    </div>
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="2000">
+                        <img src="images/Ellipse 151.png" id="New-Section3-vision-and-mission-middle-image" alt="">
+                    </div>
+                    <div class="col-lg-4" data-aos="fade-down" data-aos-duration="2000">
+                        <p class="New-Section3-vision-and-mission-para-title1">
+                            <img src="images/Group 1261155548.png" alt="">
+                            Mission
+                        </p>
+                        <p class="New-Section3-vision-and-mission-para-title2">At Raigadkar Agro, our mission is to
+                            empower farmers and agricultural enthusiasts with the finest products, expert guidance, and
+                            innovative solutions, fostering sustainable and prosperous agricultural practices</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ***************NEw Secton 3*************** -->
+
+
+
+
+    <!-- ***************NEw Secton 3 Ended*************** -->
+
+
+
+
+    <!-- section2***************** -->
+
+
+
+
+
+
+
+    <Section class="Raigadkar-agro-sec2">
+        <div class="container">
+            <div class="row">
+                <p class="text-center Raigadkar-agro-sec2-main-title ">Our <span
+                        class="Raigadkar-agro-sec2-main-title-color">Services</span></p>
+                <div class="col-md-5 Raigadkar-agro-sec2-img-div">
+
+
+                    <div data-aos="zoom-in">
+                        <img src="images/sec2-left-div-img.png" alt="" id="sec2-left-div-img">
+                    </div>
+                </div>
+
+                <div class="col-md-7">
+                    <div class="Raigadkar-agro-sec2-right-div">
+                        <img src="images/sec2-right-div-img1 (1).png" alt="Image"
+                            class="Raigadkar-agro-sec2-right-div-img">
+                        <div>
+                            <p class="Raigadkar-agro-sec2-right-div-title">Government Consultancy</p>
+                            <p class="Raigadkar-agro-sec2-right-div-content">We provide expert agricultural consulting
+                                services to government agencies, helping shape policies and programs that benefit
+                                farmers.</p>
+                        </div>
+                    </div>
+
+                    <div class="Raigadkar-agro-sec2-right-div ">
+                        <img src="images/sec2-right-div-img2.png" alt="Image" class="Raigadkar-agro-sec2-right-div-img">
+                        <div>
+                            <p class="Raigadkar-agro-sec2-right-div-title">Land Development Services</p>
+                            <p class="Raigadkar-agro-sec2-right-div-content">Get expert assistance in developing your
+                                land for optimal agricultural use.</p>
+                        </div>
+                    </div>
+
+                    <div class="Raigadkar-agro-sec2-right-div ">
+                        <img src="images/sec2-right-div-img (3).png" alt="Image"
+                            class="Raigadkar-agro-sec2-right-div-img">
+                        <div>
+                            <p class="Raigadkar-agro-sec2-right-div-title">Agriculture Equipment Trading</p>
+                            <p class="Raigadkar-agro-sec2-right-div-content">We are a trusted dealer for all types of
+                                agricultural equipment, ensuring you have the right tools for the job.</p>
+                        </div>
+                    </div>
+
+
+                    <div class=" d-flex justify-content-center align-items-center mt-4 mb-5">
+                        <a href="services.html" class="Raigadkar-agro-see-more-btn  ">See More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </Section>
+
+
+
+    <!-- ************Section 3************ -->
+
+
+
+    <!-- **************New Modified Section our products************** -->
+
+    <section>
+        <div class="Raigadkar-agro-modified-sec-our-products">
+            <div class="container">
+                <div class="row m-0 p-0 w-100">
+                    <div
+                        class="col-lg-12 col-md-12 col-sm-12 text-center Raigadkar-home-new-section5-image-div-leftside-div1">
+                        <img src="images/Group 1000003829.png" id="Raigadkar-home-new-section5-nimage" alt="">
+                    </div>
+                    <div class="col-lg-12 home-new-section5-modified-title">
+                        <p class="home-new-section5-modified-title-para">Our <span
+                                class="home-new-section5-modified-title-para-span">Products</span></p>
+                    </div>
+                </div>
+
+                <div class="row m-0 p-0 w-100 Raigadkar-agro-modified-sec-our-products-row2-inside-containerr">
+                    <div class="col-lg-4 col-md-6 mt-2 Raigadkar-agro-modified-sec-our-products-row2-inside-containerr-col"
+                        data-aos="zoom-in" data-aos-duration="2000">
+                        <div class="card h-100" style="width: 18rem;">
+                            <div class="card-img-overlay">
+                                <p>Chemical & Organic Fertilizers</p>
+                            </div>
+                            <img src="images/Rectangle 66119.png"
+                                class="card-img-top text-center Raigadkar-agro-modified-sec-our-products-insidecard-image"
+                                alt="...">
+                            <div class="card-body">
+                                <p class="card-text Raigadkar-agro-modified-sec-our-products-insidecard-para">We offer a
+                                    variety of fertilizers to meet the specific needs of your crops and soil conditions.
+                                </p>
+                                <a href="product.html" class="btn agro-hm-our-prd-btn" style="background-color: #4BAF47; color: white; font-family: sans-serif;z-index: 6;
+                                position: sticky;">Explore More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-2 Raigadkar-agro-modified-sec-our-products-row2-inside-containerr-col"
+                        data-aos="zoom-in" data-aos-duration="2000">
+                        <div class="card h-100" style="width: 18rem;">
+                            <div class="card-img-overlay">
+                                <p>Pond Management Solutions</p>
+                            </div>
+                            <img src="images/Rectangle 66119 (1).png"
+                                class="card-img-top text-center Raigadkar-agro-modified-sec-our-products-insidecard-image"
+                                alt="...">
+                            <div class="card-body">
+                                <p class="card-text Raigadkar-agro-modified-sec-our-products-insidecard-para">We offer
+                                    services for pond engraving and geomembrane lining.</p>
+                                <a href="product.html" class="btn agro-hm-our-prd-btn"
+                                    style="background-color: #4BAF47; color: white; font-family: sans-serif;">Explore
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mt-2 Raigadkar-agro-modified-sec-our-products-row2-inside-containerr-col"
+                        data-aos="zoom-in" data-aos-duration="2000">
+                        <div class="card h-100" style="width: 18rem;">
+                            <div class="card-img-overlay">
+                                <p>Effective Pesticides</p>
+                            </div>
+                            <img src="images/Rectangle 66119 (2).png"
+                                class="card-img-top text-center Raigadkar-agro-modified-sec-our-products-insidecard-image"
+                                alt="...">
+                            <div class="card-body">
+                                <p class="card-text Raigadkar-agro-modified-sec-our-products-insidecard-para">We provide
+                                    safe and effective pest control solutions to protect your crops.</p>
+                                <a href="product.html" class="btn agro-hm-our-prd-btn"
+                                    style="background-color: #4BAF47; color: white; font-family: sans-serif;">Explore
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-0 p-0 w-100 mt-4 Raigadkar-agro-modified-sec-our-products-row2-inside-containerr">
+                    <div class="col-lg-4 col-md-6 mt-2 Raigadkar-agro-modified-sec-our-products-row2-inside-containerr-col"
+                        data-aos="zoom-in" data-aos-duration="2000">
+                        <div class="card h-100" style="width: 18rem;">
+                            <div class="card-img-overlay">
+                                <p>Modern Irrigation Systems</p>
+                            </div>
+                            <img src="images/Rectangle 66119 (3).png"
+                                class="card-img-top text-center Raigadkar-agro-modified-sec-our-products-insidecard-image"
+                                alt="...">
+                            <div class="card-body">
+                                <p class="card-text Raigadkar-agro-modified-sec-our-products-insidecard-para">Install
+                                    efficient drip and sprinkler systems for optimal water management.</p>
+                                <a href="product.html" class="btn agro-hm-our-prd-btn"
+                                    style="background-color: #4BAF47; color: white; font-family: sans-serif;">Explore
+                                    More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-2 Raigadkar-agro-modified-sec-our-products-row2-inside-containerr-col"
+                        data-aos="zoom-in" data-aos-duration="2000">
+                        <div class="card h-100" style="width: 18rem;">
+                            <div class="card-img-overlay">
+                                <p>Durable Piping Solutions</p>
+                            </div>
+                            <img src="images/Rectangle 66119 (4).png"
+                                class="card-img-top text-center Raigadkar-agro-modified-sec-our-products-insidecard-image"
+                                alt="...">
+                            <div class="card-body">
+                                <p class="card-text Raigadkar-agro-modified-sec-our-products-insidecard-para">We offer a
+                                    range of PVC and HDPE pipes for various agricultural applications.</p>
+                                <a href="product.html" class="btn agro-hm-our-prd-btn"
+                                    style="background-color: #4BAF47; color: white; font-family: sans-serif;">Explore
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-2 Raigadkar-agro-modified-sec-our-products-row2-inside-containerr-col"
+                        data-aos="zoom-in" data-aos-duration="2000">
+                        <div class="card h-100" style="width: 18rem;">
+                            <div class="card-img-overlay">
+                                <p>Urban Agriculture Expertise</p>
+                            </div>
+                            <img src="images/Rectangle 66119 (5).png"
+                                class="card-img-top text-center Raigadkar-agro-modified-sec-our-products-insidecard-image"
+                                alt="...">
+                            <div class="card-body">
+                                <p class="card-text Raigadkar-agro-modified-sec-our-products-insidecard-para">Get expert
+                                    advice and solutions for setting up a thriving terrace garden.</p>
+                                <a href="index.html" class="btn agro-hm-our-prd-btn"
+                                    style="background-color: #4BAF47; color: white; font-family: sans-serif;">Explore
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <br><br>
+    <!-- ***************New section5*********** -->
+    <section>
+        <div class="home-new-section5-modified">
+            <div class="container">
+                <div class="row m-0 p-0 w-100">
+                    <div
+                        class="col-lg-12 col-md-12 col-sm-12 text-center Raigadkar-home-new-section5-image-div-leftside-div1">
+                        <img src="images/Group 1000003829.png" id="Raigadkar-home-new-section5-nimage" alt="">
+                    </div>
+                    <div class="col-lg-12 home-new-section5-modified-title">
+                        <p class="home-new-section5-modified-title-para">Why Choose <span
+                                class="home-new-section5-modified-title-para-span">Raigadkar Agro</span></p>
+                    </div>
+                </div>
+                <div class="row m-0 p-0 w-100">
+                    <div class="col-lg-6 home-new-section5-modified-left-col">
+                        <div class="row m-0 p-0 w-100" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="col-lg-2 home-new-section5-modified-left-col-righttick-icon">
+                                <img src="images/Home-new-modified-image-icon.png" alt="Home-new-modified-image-icon">
+                            </div>
+                            <div class="col-lg-10 home-new-section5-modified-left-col-content-left-div">
+                                <span class="home-new-section5-modified-left-col-content-left-div-span">One-Stop
+                                    Solution</span>
+                                <p class="home-new-section5-modified-left-col-content-left-div-para">We provide
+                                    everything you need for your agricultural endeavors under one roof.</p>
+                            </div>
+
+
+                        </div>
+                        <div class="row m-0 p-0 w-100" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="col-lg-2">
+                                <img src="images/Home-new-modified-image-icon.png" alt="Home-new-modified-image-icon">
+                            </div>
+                            <div class="col-lg-10 home-new-section5-modified-left-col-content-left-div">
+                                <span class="home-new-section5-modified-left-col-content-left-div-span">Quality Products
+                                    & Services</span>
+                                <p class="home-new-section5-modified-left-col-content-left-div-para">We offer only the
+                                    best quality products and services to ensure your success.</p>
+                            </div>
+
+                        </div>
+                        <div class="row m-0 p-0 w-100" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="col-lg-2">
+                                <img src="images/Home-new-modified-image-icon.png" alt="Home-new-modified-image-icon">
+                            </div>
+                            <div class="col-lg-10 home-new-section5-modified-left-col-content-left-div">
+                                <span class="home-new-section5-modified-left-col-content-left-div-span">Experienced
+                                    Professionals</span>
+                                <p class="home-new-section5-modified-left-col-content-left-div-para">Our team is
+                                    comprised of knowledgeable and dedicated individuals passionate about agriculture.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row m-0 p-0 w-100" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="col-lg-2">
+                                <img src="images/Home-new-modified-image-icon.png" alt="Home-new-modified-image-icon">
+                            </div>
+                            <div class="col-lg-10 home-new-section5-modified-left-col-content-left-div">
+                                <span class="home-new-section5-modified-left-col-content-left-div-span">Commitment to
+                                    Sustainability</span>
+                                <p class="home-new-section5-modified-left-col-content-left-div-para">We promote
+                                    sustainable agricultural practices for a thriving future.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 home-new-section5-modified-right-div-image" data-aos="zoom-in"
+                        data-aos-duration="2000">
+                        <img src="images/Home-new-modified-image.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <br><br>
+
+
+    <section class="footer">
+        <div class="Raigadkar-agro-sec5">
+            <div class="container">
+                <div class="row m-0 p-0 w-100">
+                    <div class="col-lg-4 Raigadkar-agro-sec5-col1-div">
+                        <img src="images/Mask group.png" alt="">
+                        <p class="Raigadkar-agro-sec5-col1-div-p">Happen active county. Winding morning
+                            ambition shyness evident to poor. Because
+                            elderly new to the point to main success.</p>
+                        <!-- <p class="Raigadkar-agro-sec5-col1-div-p2"><input type="email" placeholder="Enter Email"
+                                id="footer-onlyinputid"> <img src="images/Form → Button.png" alt=""></p> -->
+
+                    </div>
+                    <div class="col-lg-3 Raigadkar-agro-sec5-col2-div">
+
+
+                        <p class="Raigadkar-agro-sec5-col2-div-p">Our Services</p>
+
+                        <p><img src="images/footer-leaficon.png" alt=""> <span>Government Consultant</span></p>
+                        <p><img src="images/footer-leaficon.png" alt=""> <span>Farmer Consultant</span></p>
+                        <p><img src="images/footer-leaficon.png" alt=""> <span>Land Development Services</span></p>
+                        <p><img src="images/footer-leaficon.png" alt=""> <span>Agricultural Equipment Trading</span></p>
+                        <p><img src="images/footer-leaficon.png" alt=""> <span>Pond Development consultant</span></p>
+                        <p><img src="images/footer-leaficon.png" alt=""> <span>Agriculture Commodities </span></p>
+
+                    </div>
+                    <div class="col-lg-2 Raigadkar-agro-sec5-col3-div">
+                        <p class="Raigadkar-agro-sec5-col2-div-p">Company</p>
+
+                        <p><img src="images/footer-leaficon.png" alt=""> <span><a href="index.html">Home</a></span></p>
+                        <p><img src="images/footer-leaficon.png" alt=""> <span><a href="aboutus.html">About
+                                    us</a></span></p>
+                        <p><img src="images/footer-leaficon.png" alt=""> <span><a
+                                    href="services.html">Services</a></span></p>
+                        <p><img src="images/footer-leaficon.png" alt=""> <span><a href="product.html">Product</a></span>
+                        </p>
+                        <p><img src="images/footer-leaficon.png" alt=""> <span><a href="Contactus.html">Contact
+                                    Us</a></span></p>
+
+
+
+
+                    </div>
+                    <div class="col-lg-3 Raigadkar-agro-sec5-col4-div">
+                        <p class="Raigadkar-agro-sec5-col2-div-p">Contact Info</p>
+
+                        <div class="row m-0 p-0 footer-sec5-address-section-raigadkar">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <img src="images/footer-home-icon.png" alt="" class="footer-icon">
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-xs-9">
+                                <p>W17Z , Malharwada,
+                                    Sutakwadi Road, Meelgaon, Khopoli, Tal. Khalapur, Dist. Raigad - 410203</p>
+                            </div>
+                        </div>
+
+                        <div class="row m-0 p-0 mb-2 footer-sec5-email-section-raigadkar">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <img src="images/footer-msg-icon.png" alt="" class="footer-icon">
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-xs-9">
+                                <p class="m-0">info@Raigadkaragro.com</p>
+                            </div>
+                        </div>
+                        
+
+                        <div class="row m-0 p-0 footer-sec5-phone-section-raigadkar">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <img src="images/footer-phone-icon.png" alt="" class="footer-icon" onclick="makeCall()">
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-xs-9">
+                                <p>+91 8975798087 <br>+91 8291921351 </p>
+                            </div>
+                        </div>
+                        <!-- <p><img src="images/footer-home-icon.png" alt="" class="footer-icon">W17Z , Malharwada,
+                            Sutakwadi Road, Meelgaon, Khopoli, Tal. Khalapur, Dist. Raigad - 410203</p>
+
+                        <p><img src="images/footer-msg-icon.png" alt="" class="footer-icon"> raigadkarprakash@gmail.com  / 
+                            prakashughade87@gmail.com</p>
+
+                        <p><img src="images/footer-phone-icon.png" alt="" class="footer-icon" onclick="makeCall()">8975798087/8291921351 </p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        function makeCall() {
+            window.location.href = "tel:8975798087";
+        }
+
+        // Text to be typed
+        var welcomeText = "Welcome to ";
+        var agroText = "Raigadkar Agro";
+        var speed = 100; // Typing speed in milliseconds
+
+        // Initialize index
+        var welcomeIndex = 0;
+        var agroIndex = 0;
+
+        // Function to type text
+        function typeWelcome() {
+            var welcomeElement = document.getElementById("typed-welcome");
+            var agroElement = document.getElementById("typed-text");
+
+            function typeWelcomeText() {
+                if (welcomeIndex < welcomeText.length) {
+                    welcomeElement.textContent += welcomeText.charAt(welcomeIndex);
+                    welcomeIndex++;
+                    setTimeout(typeWelcomeText, speed);
+                } else {
+                    typeAgro(agroElement);
+                }
+            }
+
+            typeWelcomeText();
+        }
+
+        function typeAgro(element) {
+            function typeAgroText() {
+                if (agroIndex < agroText.length) {
+                    element.textContent += agroText.charAt(agroIndex);
+                    agroIndex++;
+                    setTimeout(typeAgroText, speed);
+                } else {
+                    // Reset indexes and clear text for both welcome and agro elements
+                    welcomeIndex = 0;
+                    agroIndex = 0;
+                    document.getElementById("typed-welcome").textContent = '';
+                    document.getElementById("typed-text").textContent = '';
+                    // Restart the typing process
+                    setTimeout(typeWelcome, 500);
+                }
+            }
+
+            setTimeout(typeAgroText, 500); // Wait for 1 second before typing "Raigadkar Agro"
+        }
+
+        // Start typing animation when the page loads
+        window.onload = function () {
+            typeWelcome();
+        };
+
+    </script>
+
+</body>
+
+</html>

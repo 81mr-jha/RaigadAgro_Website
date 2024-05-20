@@ -1,0 +1,328 @@
+
+
+/* ***Navbar css******ended***** */
+
+
+
+
+
+.raigad-prd-sec1 {
+
+    background: url(images/product/product-sec1-bg1.png);
+    height: auto;
+    padding: 0% 0% 2% 0%;
+}
+
+.raigad-prd-sec1-title1 {
+    font-family: "Dosis", sans-serif;
+    color: white;
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 3% 10% 0% 10%;
+
+}
+
+
+.raigad-prd-sec1-subdiv {
+    background: url(/images/product/raigad-agr-prd-sec1-2.png);
+    margin: 8% 10% -8% 10%;
+    border-radius: 20px;
+    padding: 2% 2% 2% 2%;
+}
+
+.raigad-prd-sec1-subdiv-p1 {
+    font-size: 1.3rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    /* margin: 0% 5% 0% 5%; */
+
+}
+
+
+.raigad-prd-sec1-subdiv-p2 {
+    font-size: 1.3rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    /* margin: 0% 5% 0% 5%; */
+
+}
+
+
+@media (min-width:310px) and (max-width:768px) {
+    .raigad-prd-sec1-title1 {
+        font-size: 1.8rem;
+        padding: 3% 5% 0% 5%;
+    }
+
+    .raigad-prd-sec1 {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .raigad-prd-sec1-subdiv-p1 {
+        font-size: 1.2rem;
+    }
+
+    .raigad-prd-sec1-subdiv-p2 {
+        font-size: 1.2rem;
+
+    }
+
+}
+
+/* -------------------sec2---------------------- */
+
+.raigad-prd-sec2 {
+    height: auto;
+    padding: 3% 3% 3% 3%;
+}
+
+.raigad-prd-sec2-title1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: "Dosis", sans-serif;
+
+    text-align: center;
+
+}
+
+#raigad-prd-sec2-title1-1 {
+    margin-top: 5%;
+}
+
+.raigad-prd-sec2-p1 {
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0% 5% 0% 5%;
+}
+
+
+.raigad-prd-sec2-imageset1 {
+    margin-top: 5%;
+}
+
+.raigad-prd-sec2-img1 {
+    width: 100%;
+}
+
+@media (min-width:310px) and (max-width:768px) {
+    .raigad-prd-sec2-img1 {
+
+        margin: 10% 0% 0% 0%;
+    }
+
+    .raigad-prd-sec2-title1 {
+        font-size: 1.6rem;
+    }
+
+    .raigad-prd-sec2-p1 {
+        font-size: 1rem;
+    }
+
+}
+
+/* -------------------sec3----------------------- */
+.raigad-prd-sec3 {
+    height: auto;
+    padding: 5% 0% 5% 0%;
+
+}
+
+.raigad-prd-sec3-title1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    color: white;
+
+}
+
+.raigad-prd-sec3-subdiv {
+    background-color: #719D2A;
+    border-top-left-radius: 10px;
+    /* Adjust the value as needed */
+    border-top-right-radius: 10px;
+    margin: 0% 1% 0% 1%;
+
+}
+
+.raigad-prd-sec3-p1 {
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0% 5% 0% 5%;
+    color: white;
+    padding-bottom: 2%;
+}
+
+.raigad-prd-sec3-img1 {
+    width: 100%;
+}
+
+
+@media (min-width:310px) and (max-width:768px) {
+
+    .raigad-prd-sec3-subdiv {
+        background-color: #719D2A;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .raigad-prd-sec3-title1 {
+        font-size: 1.6rem;
+    }
+
+    .raigad-prd-sec3-p1 {
+        font-size: 1rem;
+    }
+
+    .raigad-prd-sec3-img1 {
+        margin: 5% 0% 0% 0%;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+}
+
+/* -------------------sec4----------------------- */
+
+.raigad-prd-sec4 {
+    background-color:
+        #043A3A;
+    height: auto;
+    padding: 3% 0% 3% 0%;
+    margin-top: 3%;
+}
+
+.raigad-prd-sec4-subdiv-subrow {
+    margin-top: -7%;
+}
+
+.raigad-prd-sec4-subdiv {
+    border: 2px solid white;
+    border-radius: 27px;
+    padding-bottom: 8%;
+
+}
+
+
+.raigad-prd-sec4-subdiv-p1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.raigad-prd-sec4-subdiv-p2 {
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0% 5% 0% 5%;
+    color: white;
+    padding-bottom: 2%;
+}
+
+.raigad-prd-sec4-img1 {
+    width: 100%;
+}
+
+
+
+@media (min-width:310px) and (max-width:768px) {
+    .raigad-prd-sec4-subdiv-p1 {
+        font-size: 1.6rem;
+    }
+
+    .raigad-prd-sec4-subdiv-p2 {
+        font-size: 1rem;
+    }
+
+    .raigad-prd-sec4-img1 {
+        margin: 10% 0% 0% 0%;
+    }
+}
+
+/* -------------------sec5----------------------- */
+
+.raigad-prd-sec5 {
+    background: url(/images/product/raigad-agr-prd-sec5-bg.png);
+    background-position: center;
+    height: auto;
+    padding: 2% 2% 2% 2%;
+
+}
+
+.raigad-prd-sec5-title1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    color:
+        #000000;
+    margin: 3% 0% 0% 0%;
+}
+
+.raigad-prd-sec5-p1 {
+
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0% 5% 4% 5%;
+    color: black;
+
+}
+
+.raigad-prd-sec5-img1 {
+    width: 100%;
+}
+
+.raigad-prd-sec5-row1 {
+    margin-top: 5%;
+}
+
+.raigad-prd-sec5-1-main-div {
+    background-color: #49A760;
+    margin-top: 5%;
+}
+
+.raigad-prd-sec5-1-p1 {
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    padding: 2% 3% 2% 3%;
+    color: white;
+}
+
+
+
+
+
+@media (min-width:310px) and (max-width:768px) {
+ 
+    .raigad-prd-sec5 {
+        background: url(/images/product/raigad-agr-prd-sec5-bg.png);
+        background-position: center;
+        height: auto;
+        padding: 2% 2% 2% 2%;
+        background-size: contain;
+    
+    }    
+    .raigad-prd-sec5-title1 {
+        font-size: 1.6rem;
+    }
+
+    .raigad-prd-sec5-p1 {
+        font-size: 1rem;
+    }
+
+    .raigad-prd-sec5-img1 {
+        margin: 10% 0% 0% 0%;
+    }
+    
+}

@@ -1,0 +1,1122 @@
+body{
+    scroll-behavior: smooth;
+}
+
+.navbar-section{
+    /* background-image: url('images/nav-bgimg.png'); */
+    background: white;
+    height: auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    padding-bottom: 0.5%;
+}
+nav {
+    /* background-color: white; */
+    /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1); */
+   
+}
+
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+}
+nav li{
+    height: auto;
+}
+
+nav li a{
+    height: 70px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+nav li a:hover{
+color: #4BAF47;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: black;
+}
+
+nav a:hover {
+    /* background-color: #f0f0f0; */
+}
+
+nav :first-child {
+    margin-right: auto;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    /* width: 250px; */
+    z-index: 999;
+    /* background-color: white; */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px white;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.inner-div-sidebar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar-social-media-icon {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 6% 0% 0% 0%;
+}
+.navbar-social-media-icon-img{
+    width: 10%;
+}
+
+.sidebar.open {
+    display: flex;
+    padding-left: 0;
+}
+
+.sidebar li {
+    width: 100%;
+    
+}
+
+
+#home-nav{
+    margin-top: 10%;
+}
+.sidebar li a {
+    width: 100%;
+
+    /* margin-left: 30%; */
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.menu-button{
+    display: none;
+}
+.navbar-logo-img1{
+    width: 69%;
+}
+
+#navbar-logo-black{
+    width: 21%;
+    margin-left: 5%;
+}
+.navbar-copywright{
+    font-weight: 600;
+    margin-top: 5%;
+    font-weight: 600;
+
+    font-size: 1.3rem;
+    text-align: center;
+    width: 100%;
+    /* color: white; */
+}
+
+.navbar-copywright p{
+    color: white;
+}
+@media(max-width: 800px){
+    .sidebar li a:hover {
+        background-color: none;
+
+    }
+    
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+    .navbar-social-media-icon :first-child {
+        margin-right: 0px;
+    }
+    
+    #sidebari1{
+        color: black;
+    }
+    nav a {
+    color:white;
+    }
+}
+@media(max-width: 600px){
+    .sidebar{
+        width: 100%;
+    }
+}
+
+
+/* ***Navbar css******ended***** */
+
+
+/* ***Navbar css******ended***** */
+
+ .Raigadkar-section1-bgimg{
+    /* background-image: url('images/Sec1\ bg-img.png'); */
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10% 5% 17% 5%;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.Raigadkar-section1-bgimg {
+    /* Set the video file path */
+    /* background: url(/videos/home-pg-bg-1.mp4) no-repeat; */
+    /* background-size: cover; */
+    /* padding: 10% 5% 17% 5%; */
+    
+}
+
+
+
+
+
+
+.video-background {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh; /* Adjust as needed */
+}
+
+#myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.Raigadkar-section1-bgimg-p1 {
+    width: 100%;
+    font-size: 4rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: "Dosis", sans-serif;
+    line-height: 5rem;
+    text-align: center;
+}
+.Raigadkar-section1-bgimg-p2 {
+    width: 50%;
+    font-family: Poppins;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-top: 3%;
+}
+#Sec1-blinker-id {
+    position: absolute;
+    top: 14%;
+    right: 36%;
+    width: 6%;
+}
+
+@media only screen and (max-width:400px)
+{
+    #Sec1-blinker-id {
+        position: absolute;
+        top: 22%;
+        right: 65%;
+        width: 10%;
+    }
+    .Raigadkar-section1-bgimg-p1 {
+        width: 95%;
+        font-size: 1.2rem;
+        color: #FFFFFF;
+        font-weight: 600;
+        margin-top: 0%;
+        line-height: 2rem;
+    }
+    }
+
+    .Raigadkar-section1-bgimg-p2 {
+        width: 100%;
+        font-family: Poppins;
+        font-size: 1.3rem;
+        font-family: "Dosis", sans-serif;
+        color: #FFFFFF;
+        font-weight: 500;
+        margin-top: 9%;
+        text-align: center;
+    }
+
+
+@media only screen and (min-width:400px) and (max-width:500px)
+{
+    .Raigadkar-section1-bgimg {
+      
+
+    }
+    .Raigadkar-section1-bgimg-p1 {
+        width: 100%;
+        font-family: Dosis;
+        font-size: 1.6rem;
+        color: #FFFFFF;
+        font-weight: 600;
+        /* position: absolute; */
+        margin-top: 0%;
+        line-height: 2.5rem;
+    }
+    .Raigadkar-section1-bgimg-p2 {
+        width: 70%;
+        font-family: Poppins;
+        font-size: 1rem;
+        color: #FFFFFF;
+        font-weight: 500;
+        margin-top: 30%;
+    }
+    #Sec1-blinker-id {
+        position: absolute;
+        top: 19%;
+        right: 34%;
+        width: 9%;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:768px){
+    .Raigadkar-section1-bgimg-p1 {
+        width: 90%;
+        font-size: 1.8rem;
+        color: #FFFFFF;
+        font-weight: 600;
+        /* position: absolute; */
+        line-height: 2.2rem;
+    }
+    .Raigadkar-section1-bgimg-p2 {
+        width: 70%;
+        font-family: Poppins;
+        font-size: 1.2rem;
+        color: #FFFFFF;
+        font-weight: 500;
+        margin-top: 15%;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:992px)
+{
+    .Raigadkar-section1-bgimg-p2 {
+        width: 70%;
+        font-family: Poppins;
+        font-size: 1.1rem;
+        color: #FFFFFF;
+        font-weight: 500;
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1100px)
+{
+    .Raigadkar-section1-bgimg-p2 {
+        width: 70%;
+        font-family: Poppins;
+        font-size: 1.3rem;
+        color: #FFFFFF;
+        font-weight: 500;
+        margin-top: 3%;
+    }
+} 
+
+
+@media only screen and (min-width:300px) and (max-width:391px)
+{
+    .video-background {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 55vh;
+    }
+    .Raigadkar-section1-bgimg {
+        height: 55vh;
+        padding: 36% 4% 2% 4%;
+    }
+    
+    .Raigadkar-section1-bgimg-p2 {
+        width: 98%;
+        font-family: Poppins;
+        font-size: 1rem;
+        color: #FFFFFF;
+        font-weight: 500;
+        margin-top: 0%;
+    }
+
+}
+
+
+@media only screen and (min-width:392px) and (max-width:450px)
+{
+
+.video-background {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50vh;
+}
+.Raigadkar-section1-bgimg {
+    height: 50vh;
+    padding: 36% 4% 2% 4%;
+}
+
+.Raigadkar-section1-bgimg-p2 {
+    width: 98%;
+    font-family: Poppins;
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-top: 0%;
+}
+}
+
+
+
+@media only screen and (min-width:451px) and (max-width:768px)
+{
+
+.video-background {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50vh;
+}
+.Raigadkar-section1-bgimg {
+    height: 50vh;
+    padding: 36% 4% 2% 4%;
+}
+
+.Raigadkar-section1-bgimg-p2 {
+    width: 98%;
+    font-family: Poppins;
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-top: 0%;
+}
+}
+
+
+
+@media only screen and (min-width:769px) and (max-width:1100px)
+{
+
+.video-background {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50vh;
+}
+.Raigadkar-section1-bgimg {
+    height: 50vh;
+    padding: 20% 4% 2% 4%;
+}
+
+.Raigadkar-section1-bgimg-p2 {
+    width: 98%;
+    font-family: Poppins;
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-top: 0%;
+}
+}
+
+
+
+
+
+
+
+
+
+.Raigadkar-agro-sec2-main-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.Raigadkar-agro-sec2-main-title-color{
+    color: #31b95e;
+}
+
+.Raigadkar-agro-sec2{
+   
+     background: url(Images/homepage-bg-sec2.png); 
+    height: auto;
+    background-size: cover;
+}
+
+
+#sec2-left-div-img{
+    width: 95%;
+}
+.Raigadkar-agro-sec2-right-div-content{
+    color: #5B5B5B;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.Raigadkar-agro-sec2-right-div-title {
+    font-family: 'DOSIS';
+    font-size: 2rem;
+    font-weight: 700;
+}
+.Raigadkar-agro-sec2-right-div {
+      display: flex;
+     
+        align-items: center;
+        
+    
+    }
+    
+.Raigadkar-agro-sec2-right-div-img {
+        margin-right: 20px;
+        max-width: 100px; /* Adjust the image width as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    @media only screen and (max-width:400px)
+    {
+        #sec2-left-div-img {
+            width: 72%;
+            margin: 0% 0% 0% 13%;
+        }
+        .Raigadkar-agro-sec2-main-title {
+            font-size: 1.5rem;
+            margin-top: 3%;
+            font-weight: 700;
+        }
+        .Raigadkar-agro-sec2-right-div-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+    }
+    @media only screen and (min-width:400px) and (max-width:500px){
+        .Raigadkar-agro-sec2-main-title {
+            margin: 5% 0% 0% 0%;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        #sec2-left-div-img {
+            margin: 0% 0% 0% 12%;
+            width: 77%;
+        }
+        .Raigadkar-agro-sec2-right-div-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+    }
+
+    @media only screen and (min-width:500px) and (max-width:768px){
+        .Raigadkar-agro-sec2-img-div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Raigadkar-agro-sec2-main-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        .Raigadkar-agro-sec2-right-div-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+    }
+
+    @media only screen and (min-width:769px) and (max-width:992px){
+        .Raigadkar-agro-sec2-img-div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Raigadkar-agro-sec2-main-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        .Raigadkar-agro-sec2-right-div-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+    }
+
+    @media only screen and (min-width:992px) and (max-width:1100px){
+        .Raigadkar-agro-sec2-img-div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Raigadkar-agro-sec2-main-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        .Raigadkar-agro-sec2-right-div-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+    }
+
+
+
+    /************************* section 3 *************************/
+
+    .Raigadkar-agro-sec3-main-title {
+        font-size: 3.5rem;
+        font-weight: 700;
+        font-family: 'DOSIS';
+    }
+
+ .Raigadkar-agro-sec3-card-title{
+    font-size: 1.2rem;
+    font-weight: 700;
+ }
+ .Raigadkar-agro-sec3-card-content {
+    color: #5B5B5B;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+ .Raigadkar-agro-sec3-card{
+    box-shadow: 10px 10px #efefef;
+ }
+
+.Raigadkar-agro-see-more-btn {
+
+    padding: 10px 20px;
+    background-color: #4baf47; /* Blue background color */
+    color: white;
+    border: 2px solid #4baf47; /* Blue border color */
+   
+    border-radius: 20px;
+    
+}
+
+@media only screen and (max-width:768px){
+    .Raigadkar-agro-sec3-main-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+}
+
+/* **************SEction 4******************* */
+
+.Raigadkar-agro-sec4{
+    background-image: url('images/sec4-bg-image.png');
+}
+
+.Raigadkar-agro-sec4-para-span{
+
+}
+
+.Raigadkar-agro-sec4-para-span{
+    font-family: 
+    Candal;
+    font-size: 40px;
+    font-weight: 600;
+    color: 
+    #043A3A;
+}
+
+.Raigadkar-agro-sec4-p1-span2{
+    color: #46A92C;
+}
+
+
+
+
+/* *************footer************** */
+.Raigadkar-agro-sec5{
+    background-color: #1F4E3D;
+    height: auto;
+    color: #DEDEDE;
+}
+.Raigadkar-agro-sec5-col1-div{
+    margin-top: 4%;
+}
+.Raigadkar-agro-sec5-col1-div img{
+    margin: 3% 0% 5% 0%;
+}   
+.Raigadkar-agro-sec5-col1-div-p{
+    font-size: 16px;;
+}
+.Raigadkar-agro-sec5-col1-div-p input[type="email"]{
+    border-radius: 20px;
+}
+.Raigadkar-agro-sec5-col2-div{
+    margin-top: 6%;
+}
+.Raigadkar-agro-sec5-col2-div-p{
+    font-size: 28px;
+}
+.Raigadkar-agro-sec5-col3-div a {
+    text-decoration: none;
+    color: white;
+}
+.Raigadkar-agro-sec5-col3-div{
+    margin-top: 6%;
+}
+.Raigadkar-agro-sec5-col4-div{
+    background-image: url("images/footer-tractorimg.png");
+    margin-top: 6%;
+    background-repeat: no-repeat;
+
+    background-position: right top 94%;
+}
+.footer-icon{
+    margin-right: 5%;
+}
+#footer-onlyinputid{
+    padding: 3%;
+    width: 80%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.Raigadkar-agro-sec5-col1-div-p2 img{
+    margin-left: -14%;
+}
+
+/* @media only screen and (max-width:500px)
+{
+    .footer-sec5-email-section-raigadkar{
+        display: flex;
+        justify-content: space-between;
+    }
+} */
+@media only screen and (max-width: 500px) {
+    .footer-sec5-email-section-raigadkar {
+        display: flex;
+        flex-direction: row;
+        /* align-items: flex-start; */
+    }
+
+    .footer-sec5-email-section-raigadkar .col-md-3,
+    .footer-sec5-email-section-raigadkar .col-sm-3,
+    .footer-sec5-email-section-raigadkar .col-xs-3 {
+        width: auto;
+    }
+
+    .footer-sec5-email-section-raigadkar .col-md-9,
+    .footer-sec5-email-section-raigadkar .col-sm-9,
+    .footer-sec5-email-section-raigadkar .col-xs-9 {
+        width: auto;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .footer-sec5-phone-section-raigadkar {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .footer-sec5-phone-section-raigadkar .col-md-3,
+    .footer-sec5-phone-section-raigadkar .col-sm-3,
+    .footer-sec5-phone-section-raigadkar .col-xs-3 {
+        width: auto;
+    }
+
+    .footer-sec5-phone-section-raigadkar .col-md-9,
+    .footer-sec5-phone-section-raigadkar .col-sm-9,
+    .footer-sec5-phone-section-raigadkar .col-xs-9 {
+        width: auto;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .footer-sec5-address-section-raigadkar {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .footer-sec5-address-section-raigadkar .col-md-3,
+    .footer-sec5-address-section-raigadkar .col-sm-3,
+    .footer-sec5-address-section-raigadkar .col-xs-3 {
+        width: auto;
+    }
+
+    .footer-sec5-address-section-raigadkar .col-md-9,
+    .footer-sec5-address-section-raigadkar .col-sm-9,
+    .footer-sec5-address-section-raigadkar .col-xs-9 {
+        width: auto;
+    }
+}
+
+
+
+
+
+
+
+/* **********SEction 5**************** */
+
+.Raigadkar-agro-section5{
+    background-image: url(images/New-img-added-home-page.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+}
+.Raigadkar-agro-section5-new-section-aded{
+    padding: 3%;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: 
+    #49A760;
+    /* height: 5vh; */
+    width: 40%;
+    margin: 10% 0% 5% 10% ;
+    border-radius: 10px;
+}
+.Raigadkar-agro-section5-new-section-aded-par1{
+    font-family: Dosis;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.Raigadkar-agro-section5-new-section-aded-par2{
+    font-family: Dosis;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width:400px)
+{
+    .Raigadkar-agro-section5-new-section-aded {
+        padding: 7%;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: #49A760;
+        /* height: 68vh; */
+        width: 89%;
+        margin: 6% 0% 5% 6%;
+        border-radius: 10px;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:500px)
+{
+    .Raigadkar-agro-section5-new-section-aded {
+        padding: 3%;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: #49A760;
+        /* height: 5vh; */
+        width: 86%;
+        margin: 10% 0% 5% 5%;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:768px)
+{
+    .Raigadkar-agro-section5-new-section-aded {
+        padding: 3%;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: #49A760;
+        /* height: 5vh; */
+        width: 62%;
+        margin: 10% 0% 5% 10%;
+        border-radius: 10px;
+    }
+}  
+
+@media only screen and (min-width:1200px) and (max-width:3000px)
+{
+    .Raigadkar-agro-section5-new-section-aded {
+        padding: 3%;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: #49A760;
+        /* height: 5vh; */
+        width: 36%;
+        margin: 10% 0% 5% 15%;
+        border-radius: 10px;
+    }
+}
+.Raigadkar-agro-aboutus-sec4{ 
+    height: auto; 
+    padding: 3% 0% 3% 0%; 
+} 
+ 
+ 
+.Raigadkar-agro-aboutus-sec4-right-div-title {
+    font-family: 'Dosis';
+    font-size: 3rem;
+    font-weight: 700;
+} 
+.Raigadkar-agro-aboutus-sec4-content {
+    font-family: sans-serif;
+    color: #666666;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+}
+ 
+ 
+.Raigadkar-agro-aboutus-sec4-img1 {
+    margin-left: 30%;
+    width: 64%;
+}
+
+@media (max-width:768px){
+    .Raigadkar-agro-aboutus-sec4-img1 {
+        width: 40%;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1000px)
+{
+    .Raigadkar-agro-aboutus-sec4-img1 {
+        margin: 21% 0% 0% 21%;
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************New-section2CSS********** */
+
+.Raigadkar-home-new-section2{
+    border-top: 12px solid 
+    #4BAF47;
+    border-bottom: 12px solid 
+    #4BAF47;
+}
+.Raigadkar-home-new-section2-image-div-leftside-para-div-p{
+    font-family: Dosis;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.Raigadkar-home-new-section2-image-div-leftside-para-div-p-span{
+    color: 
+    #46A92C;
+}
+.Raigadkar-home-new-section2-image-div-leftside-div2 {
+    color: #666666;
+    font-family: Dosis;
+    margin: 6% 5% 4% -8%;
+    background-color: #FFFFFF;
+    padding: 5%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Adjust values as needed */
+
+}
+.Raigadkar-home-new-section2-image-div-leftside-div2-p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.Raigadkar-home-new-section2-image-div-leftside img{
+
+}
+/* @media only screen and (max-width:400px)
+{
+.Raigadkar-home-new-section2-image-div-leftside img{
+    width: 100%;
+}
+} */
+@media only screen and (max-width:500px)
+{
+    .Raigadkar-home-new-section2-image-div-leftside img{
+        width: 100%;
+    }
+    .Raigadkar-home-new-section2-image-div-leftside-div2 {
+        color: #666666;
+        font-family: Dosis;
+        margin: 4% 0% 4% 0%;
+        background-color: #FFFFFF;
+        padding: 5%;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+}
+@media only screen and (max-width:768px){
+    .Raigadkar-home-new-section2-image-div-leftside-div2 {
+        color: #666666;
+        font-family: Dosis;
+        margin: 0% 5% 4% 0%;
+        background-color: #FFFFFF;
+        padding: 5%;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .Raigadkar-home-new-section2-image-div-leftside img {
+        margin-left: 0%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* **********SEction 5 Modified********** */
+.home-new-section5-modified-title{
+    text-align: center;
+}
+.home-new-section5-modified-title p{
+    font-family: dosis;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.agro-hm-our-prd-btn{
+    z-index: 7;
+    position: sticky;
+}
+.home-new-section5-modified-title-para-span{
+    color: 
+    #2FB95D;
+}
+.home-new-section5-modified-right-div-image img {
+    margin: 2% 0% 0% 16%;
+    border-radius: 12px;
+    width: 49%;
+}
+.home-new-section5-modified-left-col-content-left-div-span {
+    font-family: 'Dosis';
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.home-new-section5-modified-left-col-content-left-div-para{
+    font-family: sans-serif;
+}
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card-img-overlay p {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    margin: -6% -6% -6% -6%;
+    text-align: center;
+    background-color: rgba(149, 203, 66, 0.8);
+    padding: 18px;
+    border-radius: 5px;
+}
+.Raigadkar-agro-modified-sec-our-products-insidecard-para{
+    color: 
+    #525252;
+    font-family: sans-serif;
+}
+@media only screen and (max-width:500px)
+{
+    .Raigadkar-agro-modified-sec-our-products-row2-inside-containerr{
+        margin: 3% 0% 0% 0%;
+       
+    }
+    .Raigadkar-agro-modified-sec-our-products-row2-inside-containerr-col{
+        /* margin: 10% 0% 0% 5%; */
+        padding: 10%;
+    }
+}
+.New-Section3-vision-and-mission{
+    padding: 5%;
+    border-bottom: 15px solid 
+    #4BAF47;
+}
+
+.New-Section3-vision-and-mission-para-title{
+    font-family: Dosis;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.New-Section3-vision-and-mission-para-title1{
+    font-family: Dosis;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.New-Section3-vision-and-mission-para-title2{
+    font-family: Dosis;
+    color: #4A4843;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+#New-Section3-vision-and-mission-middle-image {
+    /* width: 80%; */
+    /* margin-left: 5%; */
+}
+@media only screen and (max-width:500px)
+{
+    #New-Section3-vision-and-mission-middle-image {
+        display: none;
+        width: 90%;
+        margin: 5% 0% 5% -5%;
+    }
+}

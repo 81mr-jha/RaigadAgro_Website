@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1fc8bd02e0.js" crossorigin="anonymous"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="contactus.css">
+
+    <link rel="stylesheet" href="footer.css">
+    <link rel="icon" type="image/png" href="/images/raigdkar-Agro-logo.png">
+
+    <script src="https://kit.fontawesome.com/1fc8bd02e0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- ****************NavBar****************** -->
+    <section class="navbar-section">
+        <nav>
+
+            <ul class="sidebar">
+
+                <div class="inner-div-sidebar">
+
+                    <li><img src="images/rai-logo-black.png" alt="" id="navbar-logo-black"></li>
+
+
+                    <p onclick=hideSidebar()>
+                        <a href="#"><i class="fa-solid fa-xmark" style="font-size: larger;"></i></a>
+                    </p>
+
+                </div>
+                <li id="home-nav"><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="Contactus.html">Contact us</a></li>
+                <!-- <div class="navbar-social-media-icon">
+                    <img src="images/linkedin-1.png" class="navbar-social-media-icon-img" alt="">
+                    <img src="images/facebook-1.png" class="navbar-social-media-icon-img" alt="">
+                    <img src="images/instagram-1.png" class="navbar-social-media-icon-img" alt="">
+                </div> -->
+
+                <div class="navbar-copywright">
+                    <p>@2024 Raigdkar Agro. All rights reserved</p>
+                </div>
+            </ul>
+            <ul>
+                <li><img src="images/raigdkar-Agro-logo.png" alt="" class="navbar-logo-img1"></li>
+                <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                <li class="hideOnMobile"><a href="aboutus.html">About us</a></li>
+                <li class="hideOnMobile"><a href="services.html">Services</a></li>
+                <li class="hideOnMobile"><a href="product.html">Product</a></li>
+                <li class="hideOnMobile"><a href="Contactus.html">Contact us</a></li>
+                <li class="menu-button" onclick=toggleSidebar()><a href="#"><i class="fas fa-bars"
+                            id="sidebar i1"></i></a></li>
+            </ul>
+
+
+        </nav>
+    </section>
+    <div class="only-for-nav-bg"></div>
+
+
+    <!-- *********Navbar Ended********* -->
+
+
+
+    <!-- *********Contact US cOntent*************** -->
+
+    <section>
+        <div class="row m-0 p-0 w-100 contact-us-sec1-image">
+            <div class="contact-us-sec1-inner-image">
+                <div class="contact-text">Contact Us</div>
+
+            </div>
+            <!-- <img src="images/Vector 40.png" alt="Your Image"> -->
+        </div>
+
+        <div class="container mt-4">
+            <div class="row m-0 p-0 w-100">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="card mb-3" style="border: none;">
+                        <div class="card-body">
+                            <img src="images/Group 1000003829.png" alt="Your Image" class="img-fluid">
+                            <h5 class="card-title main-heading">Contact Us For More
+                                Info About Us!</h5>
+                            <p class="card-text main-text">At Raigadkar Agro, we're committed to providing our customers
+                                with exceptional service and high-quality agricultural products. We're here to answer
+                                any
+                                questions you may have and help you find the information you need.</p>
+                          
+                      
+
+                                <div class="contact-us-left-div-email-section">
+                                    <div class="row m-0 p-0 w-100">
+                                        <div class="col-lg-3 col-md-6 contact-us-left-div-email-section-col1">
+    
+                                            <div class="contact-us-left-div-email-section-col1-email-icon">
+                                                <img src="images/Vector (1).png" class="email-icon-contactus-page">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-9 col-md-12 contact-us-left-div-email-section-col2">
+                                            <div >
+                                                <h4 style="margin-bottom: 2px;">Email Address :</h4>
+                                                <p class="card-text bottom-two-text"> raigadkarprakash@gmail.com /
+                                                    prakashughade87@gmail.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contact-us-left-div-phone-section">
+                                    <div class="row m-0 p-0 w-100">
+                                        <div class="col-lg-3 col-md-6 contact-us-left-div-phone-section-col1">
+    
+                                            <div class="contact-us-left-div-phone-section-col1-phone-icon" onclick="makeCall()">
+                                                <img src="images/Vector.png" class="phone-icon-contactus-page">
+                                                <!-- <img src="images/Vector (1).png" class="email-icon-contactus-page"> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-9 col-md-12 contact-us-left-div-phone-section-col2">
+                                                <h4 style="margin: 0% 0% 2% 0%;">Contact Number :</h4>
+                                                <p class="card-text bottom-two-text"> 8975798087 / 8291921351</p>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="card mb-3 shadow-right-bottom">
+                        <div class="card-body">
+                            <form id="contactForm" class="row g-4">
+                                <div class="col-12 text-center">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                                    <div id="nameValidation" class="invalid-feedback">Please enter your name.</div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <input type="text" class="form-control" id="company_name" name="company_name"
+                                        placeholder="Company Name">
+                                    <div id="company_nameValidation" class="invalid-feedback">Please enter your company
+                                        name.</div>
+                                </div>
+                                <div class="col-md-6 text-center">
+                                    <input type="text" class="form-control" id="city" name="city" placeholder="City">
+                                    <div id="cityValidation" class="invalid-feedback">Please enter your city.</div>
+                                </div>
+                                <div class="col-md-6 text-center">
+                                    <input type="text" class="form-control" id="registration_state"
+                                        name="registration_state" placeholder="Registration State">
+                                    <div id="registration_stateValidation" class="invalid-feedback">Please enter your
+                                        registration state.</div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <input type="text" class="form-control" id="headquarters_address"
+                                        name="headquarters_address" placeholder="Headquarters Address">
+                                    <div id="headquarters_addressValidation" class="invalid-feedback">Please enter your
+                                        headquarters address.</div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <input type="text" class="form-control" id="contact_person" name="contact_person"
+                                        placeholder="Contact Person">
+                                    <div id="contact_personValidation" class="invalid-feedback">Please enter the contact
+                                        person.</div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                                <div id="status"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+   
+
+
+
+
+
+    <!-- *************Footer************** -->
+
+
+    <section class="footer">
+        <div class="Raigadkar-agro-sec5">
+            <div class="container">
+                <div class="row m-0 p-0 w-100">
+                    <div class="col-lg-4 Raigadkar-agro-sec5-col1-div">
+                        <img src="images/Mask group.png" alt="">
+                        <p class="Raigadkar-agro-sec5-col1-div-p">Happen active county. Winding morning
+                            ambition shyness evident to poor. Because
+                            elderly new to the point to main success.</p>
+                        <!-- <p class="Raigadkar-agro-sec5-col1-div-p2"><input type="email" placeholder="Enter Email"
+                                id="footer-onlyinputid"> <img src="images/Form → Button.png" alt=""></p> -->
+
+                    </div>
+                    <div class="col-lg-3 Raigadkar-agro-sec5-col2-div">
+                        <p class="Raigadkar-agro-sec5-col2-div-p">Our Services</p>
+
+                        <p><img src="images/footer-leaficon.png" alt=""> <span>Government Consultant</span></p>
+                        <p><img src="images/footer-leaficon.png" alt=""> <span>Farmer Consultant</span></p>
+                        <p><img src="images/footer-leaficon.png" alt=""> <span>Land Development Services</span></p>
+                        <p><img src="images/footer-leaficon.png" alt=""> <span>Agricultural Equipment Trading</span></p>
+                        <p><img src="images/footer-leaficon.png" alt=""> <span>Pond Development consultant</span></p>
+                        <p><img src="images/footer-leaficon.png" alt=""> <span>Agriculture Commodities </span></p>
+
+                    </div>
+                    <div class="col-lg-2 Raigadkar-agro-sec5-col3-div">
+                        <p class="Raigadkar-agro-sec5-col2-div-p">Company</p>
+
+                        <p><img src="images/footer-leaficon.png" alt=""> <span><a href="index.html">Home</a></span></p>
+                        <p><img src="images/footer-leaficon.png" alt=""> <span><a href="aboutus.html">About
+                                    us</a></span></p>
+                        <p><img src="images/footer-leaficon.png" alt=""> <span><a
+                                    href="services.html">Services</a></span></p>
+                        <p><img src="images/footer-leaficon.png" alt=""> <span><a href="product.html">Product</a></span>
+                        </p>
+                        <p><img src="images/footer-leaficon.png" alt=""> <span><a href="Contactus.html">Contact
+                                    Us</a></span></p>
+
+
+
+                    </div>
+                    <div class="col-lg-3 Raigadkar-agro-sec5-col4-div">
+                        <p class="Raigadkar-agro-sec5-col2-div-p">Contact Info</p>
+
+                        <div class="row m-0 p-0 footer-sec5-address-section-raigadkar">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <img src="images/footer-home-icon.png" alt="" class="footer-icon">
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-xs-9">
+                                <p>W17Z , Malharwada,
+                                    Sutakwadi Road, Meelgaon, Khopoli, Tal. Khalapur, Dist. Raigad - 410203</p>
+                            </div>
+                        </div>
+
+                        <div class="row m-0 p-0 mb-2 footer-sec5-email-section-raigadkar">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <img src="images/footer-msg-icon.png" alt="" class="footer-icon">
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-xs-9">
+                                <p class="m-0">info@Raigadkaragro.com</p>
+                            </div>
+                        </div>
+                        
+
+                        <div class="row m-0 p-0 footer-sec5-phone-section-raigadkar">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <img src="images/footer-phone-icon.png" alt="" class="footer-icon" onclick="makeCall()">
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-xs-9">
+                                <p>+91 8975798087 <br>+91 8291921351 </p>
+                            </div>
+                        </div>
+                        <!-- <p><img src="images/footer-home-icon.png" alt="" class="footer-icon">W17Z , Malharwada,
+                            Sutakwadi Road, Meelgaon, Khopoli, Tal. Khalapur, Dist. Raigad - 410203</p>
+
+                        <p><img src="images/footer-msg-icon.png" alt="" class="footer-icon"> raigadkarprakash@gmail.com  / 
+                            prakashughade87@gmail.com</p>
+
+                        <p><img src="images/footer-phone-icon.png" alt="" class="footer-icon" onclick="makeCall()">8975798087/8291921351 </p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            var formData = new FormData(this);
+
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "send_email.php", true);
+            xhr.onload = function () {
+                if (xhr.status == 200) {
+                    handleResponse(xhr.responseText);
+                } else {
+                    console.error("Error sending email: " + xhr.statusText);
+                }
+            };
+            xhr.send(formData);
+        });
+
+        function handleResponse(response) {
+            if (response.includes("Email sent successfully!")) {
+                document.getElementById("contactForm").reset();
+                console.log("Email sent successfully!");
+            } else {
+                console.error("Error sending email: " + response);
+            }
+        }
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.getElementById('contactForm');
+
+            const validationMessages = {
+                name: 'Please enter your name.',
+                company_name: 'Please enter your company name.',
+                city: 'Please enter your city.',
+                registration_state: 'Please enter your registration state.',
+                headquarters_address: 'Please enter your headquarters address.',
+                contact_person: 'Please enter the contact person.'
+            };
+
+            form.addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                let isValidForm = true;
+
+                Object.keys(validationMessages).forEach(function (key) {
+                    const input = document.getElementById(key);
+                    const validationMessage = document.getElementById(key + 'Validation');
+
+                    if (!input.value.trim()) {
+                        validationMessage.innerText = validationMessages[key];
+                        validationMessage.style.display = 'block';
+                        input.classList.add('is-invalid');
+                        isValidForm = false;
+                    } else {
+                        validationMessage.innerText = '';
+                        validationMessage.style.display = 'none';
+                        input.classList.remove('is-invalid');
+                    }
+                });
+
+                if (isValidForm) {
+                    Swal.close();
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Thanks for enquiring Raigadkar Agro We Will Contact You Soon....!!!',
+                        showConfirmButton: false,
+                        timer: 2000
+                    });
+                    form.reset();
+                } else {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'Please fill in all required fields.',
+                    });
+                }
+            });
+
+            form.addEventListener('input', function (event) {
+                const input = event.target;
+                const validationMessage = document.getElementById(input.id + 'Validation');
+
+                if (!input.value.trim()) {
+                    validationMessage.innerText = validationMessages[input.id];
+                    validationMessage.style.display = 'block';
+                    input.classList.add('is-invalid');
+                } else {
+                    validationMessage.innerText = '';
+                    validationMessage.style.display = 'none';
+                    input.classList.remove('is-invalid');
+                }
+            });
+        });
+
+    </script>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    <script>
+        function makeCall() {
+            window.location.href = "tel:8975798087";
+        }
+    </script>
+</body>
+
+</html>
